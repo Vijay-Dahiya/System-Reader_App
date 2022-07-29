@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".ReadOtp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="smsOTPCode"
+            android:importantForAutofill="yes"
+            android:layout_marginHorizontal="30dp"
+            android:layout_gravity="center"
+            android:background="@drawable/background_rec"
+            android:padding="5dp"
+            android:id="@+id/etOtp"/>
+        <Button
+            android:id="@+id/cal_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/background_rec"
+            android:layout_marginTop="100dp"
+            android:text="Get Calender"
+            android:layout_marginHorizontal="100dp"
+            />
+    </LinearLayout>
+</layout>
